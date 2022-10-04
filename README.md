@@ -12,6 +12,7 @@ public class Thing {
         	thing.doNothing();
         }
 }
+```
 
 # Unicode
 Unicode gets replaced before compilation.
