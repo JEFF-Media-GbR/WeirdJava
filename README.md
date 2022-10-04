@@ -1,13 +1,21 @@
 # Receiver Parameter
-Receiver parameters are called "this"
+Receiver parameters are called "this". And you can call the method from your instance without passing anything.
 ```java
 public class Thing {
 	// Receiver parameter
 	public void doNothing(Thing this) {
 		
 	}
+	
+	public static void main(String[] args) {
+        	Thing thing = new Thing();
+        	thing.doNothing();
+        }
 }
+```java
+public class Thing {
 
+}
 ```
 
 # Unicode
